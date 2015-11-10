@@ -1,8 +1,8 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "sounzir",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
+  "description": "sounzir saves your content and read them outloud later for you.",
   "homepage_url": "http://extensionizr.com",
   "icons": {
     "16": "icons/icon16.png",
@@ -13,7 +13,7 @@
   "browser_action": {
     "default_icon": "icons/icon19.png",
     "default_title": "browser action demo",
-    "default_popup": "src/browser_action/browser_action.html"
+    "default_popup": "src/ba/browser_action.html"
   },
   "background": {
     "scripts": [
@@ -33,7 +33,7 @@
         "https://www.google.com/*"
       ],
       "js": [
-        "src/inject/inject.js"
+        "src/inj/inject.js"
       ]
     }
   ]
