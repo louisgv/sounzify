@@ -1,11 +1,13 @@
 function onRequest(info, tab) {
   // body...
   var selection = info.selectionText;
-  alert(selection);
+  // alert(selection);
+
+  chrome.tts.speak('Hello World');
 }
 
 chrome.contextMenus.create({
-  title: "Translate '%s'",
+  title: "Sounzify '%s'",
   contexts: ["all"],
   onclick: onRequest
 });

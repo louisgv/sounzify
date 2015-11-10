@@ -1,5 +1,5 @@
 {
-  "name": "sounzir",
+  "name": "sounzify",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "sounzir saves your content and read them outloud later for you.",
@@ -11,9 +11,7 @@
   },
   "default_locale": "en",
   "browser_action": {
-    "default_icon": "icons/icon19.png",
-    "default_title": "browser action demo",
-    "default_popup": "src/ba/browser_action.html"
+    "default_icon": "icons/icon19.png"
   },
   "background": {
     "scripts": [
