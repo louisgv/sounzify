@@ -15,9 +15,17 @@
     "default_title": "browser action demo",
     "default_popup": "src/browser_action/browser_action.html"
   },
+  "background": {
+    "scripts": [
+      "src/bg/ctx_menu.js"
+    ]
+  },
   "permissions": [
+    "contextMenus",
+    "background",
     "clipboardRead",
-    "tts"
+    "tts",
+    "activeTab"
   ],
   "content_scripts": [
     {
